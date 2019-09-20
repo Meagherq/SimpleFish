@@ -1,0 +1,47 @@
+<div>
+        <nb-layout>
+                <nb-layout-column>
+<div style="text-align:center">
+        <div class="container">
+          <img id="header-fish" alt="SimpleFish Logo" src="../assets/fish.jpg"/>
+          <h1 class="centered">
+            Welcome to {{ title }}!
+          </h1>
+          <h2 class="offCentered">
+            POKÉ · SUSHI · KITCHEN
+          </h2>
+        </div>
+        <div class="wrapper">
+          We serve our meals as they are prepared, so you have the best experience possible
+    </div>
+</div>
+
+        <nb-card>
+            <nb-card-body>
+                <nb-accordion>
+                    <nb-accordion-item>
+                        <nb-accordion-item-header>Apetizers</nb-accordion-item-header>
+                        <nb-accordion-item-body>
+                            <app-food-item *ngFor="let item of appetizerArray" [foodItem]=item></app-food-item>
+                        </nb-accordion-item-body>
+                    </nb-accordion-item>
+                </nb-accordion>
+            </nb-card-body>
+        </nb-card>
+        Page Content <button nbButton>Hello World</button>
+    </nb-layout-column>
+</nb-layout>
+</div>
+
+
+
+
+<!-- 
+    <h2>Menu</h2>
+    <nb-card>
+        <nb-card-body>
+            
+        </nb-card-body>
+    </nb-card>
+    
+  </div> -->

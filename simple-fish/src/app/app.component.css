@@ -1,0 +1,26 @@
+#header-fish {
+    height: auto;
+    max-width: 100%;    
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .offCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Josefin Sans', sans-serif;
+  }

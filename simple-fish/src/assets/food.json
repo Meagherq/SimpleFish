@@ -1,0 +1,5 @@
+{
+    "appetizers": [
+        {"name": "Tuna Bites", "description": "yum", "price": "$7", "image": "./assets/tuna_bites.jpg"}
+    ]
+}
